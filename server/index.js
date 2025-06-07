@@ -7,7 +7,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get("/api/hello", (req,res) => {
-    res.send('hello fromn backend brother')
+    res.send('hell')
 });
 app.listen(PORT, () => {
     console.log("backend is runing on port 5000")
